@@ -102,7 +102,8 @@
         "emi": 3879,
         "charges": [],
         "credit": 0,
-        "paid": false
+        "paid": true,
+        "paidAt": "2026-06-29T10:43:10.947Z"
       }
     ]
   }
