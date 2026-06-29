@@ -85,6 +85,7 @@ export const store = {
       closedAt: new Date().toISOString(),
     }
     data = {
+      ...data,
       currentBill: newBill(),
       history: [closed, ...data.history],
     }
@@ -95,6 +96,22 @@ export const store = {
     data = {
       ...data,
       history: data.history.map((b) => (b.id === billId ? { ...b, paid } : b)),
+    }
+    emit()
+  },
+
+  // Mark a single EMI installment paid/pending and stamp the time.
+  setEmiPaid(installmentId: string, paid: boolean) {
+    data = {
+      ...data,
+      emi: {
+        ...data.emi,
+        installments: data.emi.installments.map((i) =>
+          i.id === installmentId
+            ? { ...i, paid, paidAt: paid ? new Date().toISOString() : undefined }
+            : i,
+        ),
+      },
     }
     emit()
   },

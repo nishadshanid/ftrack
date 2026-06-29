@@ -3,6 +3,7 @@ import { AnimatePresence } from 'framer-motion'
 import { Layout } from './components/Layout'
 import { Dashboard } from './pages/Dashboard'
 import { History } from './pages/History'
+import { Emi } from './pages/Emi'
 import { Admin } from './pages/Admin'
 
 // HashRouter is used so the app works on GitHub Pages without server rewrites.
@@ -14,6 +15,7 @@ function AnimatedRoutes() {
         <Route element={<Layout />}>
           <Route index element={<Dashboard />} />
           <Route path="history" element={<History />} />
+          <Route path="emi" element={<Emi />} />
           <Route path="admin" element={<Admin />} />
         </Route>
       </Routes>
