@@ -42,5 +42,67 @@
     "createdAt": "2026-06-25T15:58:31.749Z",
     "paid": false
   },
-  "history": []
+  "history": [],
+  "emi": {
+    "title": "Friend's EMI",
+    "installments": [
+      {
+        "id": "emi-1",
+        "month": 1,
+        "emi": 3878,
+        "charges": [
+          {
+            "label": "Convenience fee",
+            "amount": 270
+          },
+          {
+            "label": "Processing fee",
+            "amount": 299
+          }
+        ],
+        "credit": 0,
+        "paid": false
+      },
+      {
+        "id": "emi-2",
+        "month": 2,
+        "emi": 3878,
+        "charges": [],
+        "credit": 53,
+        "paid": false
+      },
+      {
+        "id": "emi-3",
+        "month": 3,
+        "emi": 3878,
+        "charges": [],
+        "credit": 0,
+        "paid": false
+      },
+      {
+        "id": "emi-4",
+        "month": 4,
+        "emi": 3878,
+        "charges": [],
+        "credit": 0,
+        "paid": false
+      },
+      {
+        "id": "emi-5",
+        "month": 5,
+        "emi": 3878,
+        "charges": [],
+        "credit": 0,
+        "paid": false
+      },
+      {
+        "id": "emi-6",
+        "month": 6,
+        "emi": 3879,
+        "charges": [],
+        "credit": 0,
+        "paid": false
+      }
+    ]
+  }
 }
