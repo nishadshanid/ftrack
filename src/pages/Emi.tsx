@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import CountUp from 'react-countup'
 import { CalendarClock, CheckCircle2, Clock, Landmark } from 'lucide-react'
 import { PageTransition } from '../components/PageTransition'
+import { RunnerScene } from '../components/RunnerScene'
 import { useAuth } from '../hooks/useAuth'
 import {
   chargesTotal,
@@ -99,6 +100,8 @@ export function Emi() {
         <div className="mt-2 text-5xl font-extrabold tracking-tight tabular-nums">
           <CountUp end={remaining} duration={1} separator="," prefix="₹" />
         </div>
+
+        <RunnerScene pct={pct} paid={paidCount} total={emi.installments.length} />
 
         <div className="mt-4 h-2 w-full overflow-hidden rounded-full bg-white/25">
           <motion.div
