@@ -88,7 +88,8 @@
         "emi": 3878,
         "charges": [],
         "credit": 0,
-        "paid": false
+        "paid": true,
+        "paidAt": "2026-06-29T10:43:16.178Z"
       },
       {
         "id": "emi-5",
