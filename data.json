@@ -61,8 +61,7 @@
           }
         ],
         "credit": 0,
-        "paid": true,
-        "paidAt": "2026-06-29T10:37:31.368Z"
+        "paid": false
       },
       {
         "id": "emi-2",
