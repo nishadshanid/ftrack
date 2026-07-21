@@ -1,7 +1,14 @@
 {
   "currentBill": {
     "id": "444e0020-b877-436e-9a86-ecc3c2db1962",
-    "entries": [],
+    "entries": [
+      {
+        "id": "7ab2108c-92fa-4b23-b18a-a5702bec423a",
+        "amount": 2000,
+        "date": "2026-07-21",
+        "createdAt": "2026-07-21T09:37:10.340Z"
+      }
+    ],
     "createdAt": "2026-07-21T09:36:47.974Z",
     "paid": false
   },
