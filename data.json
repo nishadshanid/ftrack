@@ -127,7 +127,16 @@
       ],
       "createdAt": "2026-06-25T15:58:31.749Z",
       "paid": false,
-      "closedAt": "2026-07-21T09:36:47.974Z"
+      "closedAt": "2026-07-21T09:36:47.974Z",
+      "payments": [
+        {
+          "id": "38a6c1d2-5abc-47ae-ab32-265adc50b3a3",
+          "amount": 3875,
+          "date": "2026-07-21",
+          "note": "AC EMI",
+          "createdAt": "2026-07-21T09:48:37.974Z"
+        }
+      ]
     }
   ],
   "emi": {
