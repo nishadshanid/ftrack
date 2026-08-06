@@ -144,7 +144,7 @@
         }
       ],
       "createdAt": "2026-06-25T15:58:31.749Z",
-      "paid": false,
+      "paid": true,
       "closedAt": "2026-07-21T09:36:47.974Z",
       "payments": [
         {
